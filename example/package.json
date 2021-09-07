@@ -1,0 +1,47 @@
+{
+	"name": "example",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"start": "vuepress dev docs",
+		"build": "vuepress build docs"
+	},
+	"dependencies": {
+		"bootstrap-vue": "^2.18.1",
+		"core-js": "^2.6.5",
+		"easy-bem": "^1.0.2",
+		"file-saver": "^2.0.5",
+		"vue": "^2.6.12",
+		"vue-advanced-cropper": "file:.."
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.5.0",
+		"@vue/cli-service": "^3.5.0",
+		"@vuepress/plugin-search": "^1.8.2",
+		"node-sass": "^4.12.0",
+		"sass-loader": "^7.1.0",
+		"typescript": "^4.0.5",
+		"vue-template-compiler": "^2.6.12",
+		"vuepress": "^1.7.1",
+		"vuepress-plugin-typescript": "^0.3.1"
+	},
+	"postcss": {
+		"plugins": {
+			"autoprefixer": {}
+		}
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all",
+			"ie 11"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version",
+			"ie 11"
+		]
+	}
+}

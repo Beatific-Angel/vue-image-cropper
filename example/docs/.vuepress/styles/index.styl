@@ -1,0 +1,81 @@
+.sidebar
+	.repo-link
+		display: none !important;
+
+.navbar
+	background-color: #3fb37f;
+	background-image: url('/vue-advanced-cropper/background.png');
+	background-size: cover;
+	color: white;
+	display: flex;
+	align-items center;
+	padding: 0.7rem 1.5rem !important;
+	.icon.outbound
+		display: none !important;
+	.repo-link
+		display: none !important;
+	.sidebar-button
+		position: relative
+		top 0
+		left 0
+		padding-left 0
+		padding-right 32px
+		padding-top 0
+		padding-bottom 0
+
+	.site-name
+		color: white !important;
+		font-family: 'ArBerkley' !important;
+		font-weight: normal !important;
+		font-size: 1.8rem !important;
+		padding-left 8px
+		white-space: nowrap;
+		height: 100%
+		vertical-align: middle
+		width: 100% !important
+		@media (max-width: 720px) {
+			display: none;
+		}
+	.links
+		background: none !important;
+		position: relative !important;
+		margin-left: auto;
+		top: 0 !important
+		right: 0 !important;
+	.search-box
+		input
+			padding: 0 0.25rem 0 2rem
+			border: none;
+			background-color: rgba(255, 255, 255, 0.95)
+			border-radius: 4px;
+			color: #1f8255;
+.nav-item a
+	border-bottom: none !important;
+.nav-item
+	margin-left: 20px !important;
+.navbar
+	.nav-link
+		font-size 16px !important
+		opacity: 0.7;
+		color: white !important
+
+	.nav-links a.router-link-active
+		opacity: 1
+
+.theme-default-content:not(.custom)
+	> h3 {
+		padding-top: 6.5rem
+		font-size: 1.17em;
+	}
+
+@font-face {
+    font-family: 'ArBerkley';
+    src: url('/fonts/ARBERKLEY.woff2') format('woff2'),
+        url('/fonts/ARBERKLEY.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
